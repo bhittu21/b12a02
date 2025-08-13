@@ -1,0 +1,30 @@
+.item {
+    /* border: 1px solid black; */
+    margin: 16px 8px;
+    border: 2px solid #d15400;
+    border-radius: 12px;
+}
+
+.item p {
+    font-weight: bold;
+}
+
+.item img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.item button {
+    background-color: #FF6800;
+    padding: 8px;
+    width: 100%;
+    margin-top: 8px;
+    color: white;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.item button:hover {
+    background-color: #d15400;
+    cursor: pointer;
+}
