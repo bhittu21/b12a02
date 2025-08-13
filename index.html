@@ -5,8 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 02</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- For Cart Icon Only -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>s</h1>
+    <!-- Navbar -->
+    <header class="max-w-5xl m-auto p-2 flex justify-between items-center text">
+        <div class="logo">
+            <img src="assets/logo.png" alt="">
+        </div>
+
+        <div class="nav flex gap-5">
+            <div class="menu list-none flex gap-5">
+                <li class="text-gray-600 hover:text-black cursor-pointer hover:font-bold text-[18px]">Home</li>
+                <li class="text-gray-600 hover:text-black cursor-pointer hover:font-bold text-[18px]">Shop</li>
+                <li class="text-gray-600 hover:text-black cursor-pointer hover:font-bold text-[18px]">About Us</li>
+            </div>
+
+            <div class="cart">
+                <i class="fa fa-shopping-cart text-[25px]">&nbsp;<span class="text-gray-600 hover:text-black cursor-pointer hover:font-bold text-[18px]">
+                    Cart ($56)
+                </span></i>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
